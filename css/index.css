@@ -1,0 +1,25 @@
+.dogs, .cats {
+    display: flex; /* 横並び */
+    justify-content: center; /*中央揃え*/
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* 上下に並べる */
+    align-items: center;    /* 中央揃え */
+    width: 500px;           /* カード幅 */
+}
+
+.card img {
+    width: 100%;            /* カード幅いっぱいに拡大 */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card p {
+    margin-top: 8px;
+    font-weight: bold;
+    text-align: center;
+}
