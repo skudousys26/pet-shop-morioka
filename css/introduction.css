@@ -1,1 +1,53 @@
 @charset 'utf-8';
+#introduction {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto 50px;
+}
+
+
+#introduction h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+    margin: 30px 0;
+}
+
+.pet-visual {
+    width: 100%;
+    display: flex;
+    border: 1px solid #666;
+    margin-bottom: 30px;
+}
+
+.pet-visual img {
+    width: 40%;
+    height: 100%;
+    display: block;
+}
+
+.pet-introduction {
+    width: 60%;
+    padding: 15px;
+
+}
+
+
+
+.pet-name {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 25px;
+}
+
+.pet-name h3 {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px;
+}
+
+.pet-name p {
+    font-size: 20px;
+    margin: 0;
+}
