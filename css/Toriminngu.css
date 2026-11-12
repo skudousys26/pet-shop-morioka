@@ -1,8 +1,9 @@
- section {
-text-align: center;
- }
+
+ 
 .kodawari{
-background-color: rgb(46, 106, 152);
+    text-align: center;
+background-color: #422A03;
+color: #A8DDF7;
 }
 .dogmenu_list {
     display:  flex;
@@ -11,4 +12,19 @@ background-color: rgb(46, 106, 152);
 .dogmenu_list .dogmenu_ {
     box-sizing:  border-box;
     padding: 40px 80px;
+}
+.Fee_dog {
+       border-bottom: 2px solid #422A03;
+}
+.Fee_cat{
+    border-bottom: 2px solid #422A03;
+}
+
+table {
+    border-radius: 0%;
+border:1px solid #3c3c3c ;
+display: block;
+}
+th,td {
+    padding: 10px;
 }
