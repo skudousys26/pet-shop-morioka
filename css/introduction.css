@@ -21,7 +21,7 @@
 }
 
 .pet-visual img {
-    width: 40%;
+    width: 50%;
     height: 100%;
     display: block;
 }
@@ -31,7 +31,10 @@
     padding: 15px;
 
 }
+.pet-introduction p{
+    font-size: 20px;
 
+}
 
 
 .pet-name {
