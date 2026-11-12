@@ -35,6 +35,12 @@
     font-size: 20px;
 
 }
+.infometion-button{
+    border: 1px solid #666;
+    height: 100%;
+
+
+}
 
 
 .pet-name {
@@ -45,9 +51,11 @@
 }
 
 .pet-name h3 {
-    font-size: 30px;
+    
+    font-size: 50px;
     font-weight: normal;
     margin: 20px;
+    color: #422A03;
 }
 
 .pet-name p {
