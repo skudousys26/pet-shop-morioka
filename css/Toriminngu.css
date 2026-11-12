@@ -5,6 +5,9 @@
 background-color: #422A03;
 color: #A8DDF7;
 }
+h2 {
+      border-bottom:2px solid #422A03;
+}
 .dogmenu_list {
     display:  flex;
     justify-content: center; 
@@ -20,11 +23,15 @@ color: #A8DDF7;
     border-bottom: 2px solid #422A03;
 }
 
+table,th,td {
+      border-collapse: collapse; 
+}
 table {
-    border-radius: 0%;
-border:1px solid #3c3c3c ;
-display: block;
+    margin: 3px auto;
+    display: flex;
+display: inline-block
 }
 th,td {
-    padding: 10px;
+    border:1px solid #3c3c3c ;
+    padding: 15x;
 }
