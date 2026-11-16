@@ -1,37 +1,38 @@
-
+html {
+    background-color: #FFFFE0;
+}
  
 .kodawari{
+    background-image: url("git_practice/pet-shop-morioka/images/topHero.jpg");
     text-align: center;
-background-color: #422A03;
 color: #A8DDF7;
 }
 h2 {
       border-bottom:2px solid #422A03;
 }
-.dogmenu_list {
-    display:  flex;
-    justify-content: center; 
-}
-.dogmenu_list .dogmenu_ {
-    box-sizing:  border-box;
-    padding: 40px 80px;
-}
-.Fee_dog {
-       border-bottom: 2px solid #422A03;
-}
-.Fee_cat{
-    border-bottom: 2px solid #422A03;
+/* ワンちゃん用のCSS */
+.dog_syannpu{
+    margin: 20px;;
+} 
+.dog_syannpu_cat {
+margin: 20px;
 }
 
+.dog_menu {
+    display: flex;
+}
+/* ネコちゃんのメニューのCSS　*/
+ /* テーブル用のCSS　*/
 table,th,td {
       border-collapse: collapse; 
 }
 table {
     margin: 3px auto;
     display: flex;
-display: inline-block
+display: inline-block;
 }
 th,td {
     border:1px solid #3c3c3c ;
     padding: 15x;
 }
+
