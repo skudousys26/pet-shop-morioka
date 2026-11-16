@@ -106,9 +106,13 @@ h2, h1 {
 .access-content {
     display: flex;
     justify-content: center; /* 全体を左右の中央に配置 */
-    gap: 40px;               /* 地図とリストの間の余白 */
-    max-width: 1000px;
+    gap: 20px;               /* 地図とリストの間の余白 */
     padding: 0 50px;
+}
+
+.access-content li{
+    font-size: 25px;
+    padding-bottom: 40px;
 }
 
 /* 地図の調整 */
