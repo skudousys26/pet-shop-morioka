@@ -11,28 +11,33 @@ h2 {
       border-bottom:2px solid #422A03;
 }
 /* ワンちゃん用のCSS */
-.dog_syannpu{
-    margin: 20px;;
-} 
-.dog_syannpu_cat {
-margin: 20px;
-}
-
-.dog_menu {
+.cut_ko-su_dog{
     display: flex;
+    margin-left: 40px;
+    gap:  200px;
 }
 /* ネコちゃんのメニューのCSS　*/
+.cut_kosu_cat {
+     display: flex;
+    margin-left: 40px;
+    gap:  200px;
+}
  /* テーブル用のCSS　*/
 table,th,td {
       border-collapse: collapse; 
 }
 table {
     margin: 3px auto;
-    display: flex;
 display: inline-block;
 }
+
+
 th,td {
     border:1px solid #3c3c3c ;
-    padding: 15x;
+    padding: 15px;
+}
+/* 動物全体のトリミングのCSS　*/
+.animal_menu {
+    display: flex;
 }
 
