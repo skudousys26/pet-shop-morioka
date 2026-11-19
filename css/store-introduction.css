@@ -1,0 +1,34 @@
+.layout-2column {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #422A03;
+  background-color: #CEEEFB;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.sidebar {
+    border-left: 1px solid #000000;
+    text-align: center;
+}
+
+.staff-title-bacground {
+  width: 18rem;
+  height: 4rem;
+  background-color: #456BD9;
+  border-radius: 1rem; 
+  margin: 0 auto;
+}
+
+.staff-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #422A03;
+  margin: 1rem auto;
+}
