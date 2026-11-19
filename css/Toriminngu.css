@@ -10,25 +10,29 @@ color: #A8DDF7;
 h2 {
       border-bottom:2px solid #422A03;
 }
+
 /* ワンちゃん用のCSS */
-.cut_ko-su_dog{
+.dog_menu{
     display: flex;
     margin-left: 40px;
-    gap:  200px;
+    gap:  300px;
 }
 /* ネコちゃんのメニューのCSS　*/
-.cut_kosu_cat {
-     display: flex;
+.cat_menu {
+      display: flex;
     margin-left: 40px;
-    gap:  200px;
+    gap:  300px;
 }
+
  /* テーブル用のCSS　*/
 table,th,td {
       border-collapse: collapse; 
 }
+
 table {
     margin: 3px auto;
 display: inline-block;
+
 }
 
 
@@ -39,5 +43,6 @@ th,td {
 /* 動物全体のトリミングのCSS　*/
 .animal_menu {
     display: flex;
+     border-bottom:2px solid #422A03;
 }
 
