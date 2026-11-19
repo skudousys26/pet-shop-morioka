@@ -19,6 +19,7 @@ h2, h1 {
 .introduction p{
     text-align: center;
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .pickUp{
@@ -45,6 +46,7 @@ h2, h1 {
 
 .card {
     display: flex;
+    padding-top: 40px;
     flex-direction: column; /* 上下に並べる */
     align-items: center;    /* 中央揃え */
     width: 500px;           /* カード幅 */
@@ -106,6 +108,7 @@ h2, h1 {
     justify-content: center; /* 全体を左右の中央に配置 */
     gap: 20px;               /* 地図とリストの間の余白 */
     padding: 0 50px;
+    padding-top: 40px;
 }
 
 .access-content li{
