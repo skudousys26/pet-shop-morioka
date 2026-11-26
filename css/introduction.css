@@ -1,0 +1,105 @@
+@charset 'utf-8';
+.introduction-into{
+
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px 0 20px;
+    margin: 20px 0 40px;
+    background-color: #A8DDF7;
+    color: #422A03;
+
+}
+#introduction {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto 50px;
+}
+
+
+#introduction h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+    margin: 30px 0;
+}
+
+.pet-visual {
+    width: 100%;
+    display: flex;
+    border: 1px solid #666;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 0;
+}
+
+.pet-visual img {
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+
+.pet-introduction {
+    width: 60%;
+    padding: 15px;
+
+}
+.pet-introduction p{
+    font-size: 20px;
+
+}
+.infometion-button {
+    bottom: 10px;
+    right: 10px;
+    width: 200px;
+    background-color: #fff;
+    border: solid 2px #191970;
+    color: #191970;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 1em;
+    box-shadow: 0 5px 0 #191970;
+    display: inline-block;
+    transition: .3s;
+    position: absolute;
+    z-index: auto;
+}
+.infometion-button:hover {
+
+    color: #191970;
+    transform: translateY(5px);
+    box-shadow: 0 0 0 #191970;
+    position: absolute;
+    z-index: auto;
+}
+
+
+.pet-name {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+    background-color: #A8DDF7;
+}
+
+.pet-name h3 {
+    
+    font-size: 50px;
+    font-weight: normal;
+    margin: 20px;
+    color: #422A03;
+}
+
+.pet-name p {
+    font-size: 20px;
+    margin: 0;
+}
+.pet-age{
+    position: absolute;
+    padding: 50px;
+    margin-left: 50px;
+    background-color: #A8DDF7;
+    position: relative;
+    z-index: 2;
+}
