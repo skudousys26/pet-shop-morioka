@@ -1,0 +1,124 @@
+h2, h1 {
+    text-align: center;
+}
+
+.introduction img{
+    width: 72%;
+    display: block;
+    margin: 0 auto;
+}
+
+.introduction h1{
+    background-color: #A8DDF7;
+    height: 150px;
+    display: flex;
+    justify-content: center; /* 左右の真ん中へ */
+    align-items: center;     /* 上下の真ん中へ */
+}
+
+.introduction p{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.pickUp{
+    padding-bottom: 50px;
+}
+
+.pickUp h1{
+    background-color: #A8DDF7;
+    height: 150px;
+    display: flex;
+    justify-content: center; /* 左右の真ん中へ */
+    align-items: center;     /* 上下の真ん中へ */
+}
+
+.pickUp p{
+    color: #422A03;
+}
+
+.dogs, .cats {
+    display: flex; /* 横並び */
+    justify-content: center; /*中央揃え*/
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column; /* 上下に並べる */
+    align-items: center;    /* 中央揃え */
+    width: 500px;           /* カード幅 */
+}
+
+.card img {
+    width: 100%;            /* カード幅いっぱいに拡大 */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card p {
+    margin-top: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.serviceIntroduction {
+    padding-bottom: 50px;
+}
+
+.serviceIntroduction h1{
+    background-color: #A8DDF7;
+    height: 150px;
+    display: flex;
+    justify-content: center; /* 左右の真ん中へ */
+    align-items: center;     /* 上下の真ん中へ */
+}
+
+
+.serviceList {
+    max-width: 1000px; /* 全体の最大幅 */
+    margin: 60px auto; /* 上下に余白、左右autoで中央配置 */
+    padding: 0 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 同じ幅で2列にする */
+    gap: 20px; /* カード同士の隙間 */
+}
+
+.serviceList img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; /* 画像が縦横に引き伸ばされるのを防ぐ */
+    border-radius: 8px;
+}
+
+.access h1{
+    background-color: #A8DDF7;
+    height: 150px;
+    display: flex;
+    justify-content: center; /* 左右の真ん中へ */
+    align-items: center;     /* 上下の真ん中へ */
+}
+
+.access-content {
+    display: flex;
+    justify-content: center; /* 全体を左右の中央に配置 */
+    gap: 20px;               /* 地図とリストの間の余白 */
+    padding: 0 50px;
+    padding-top: 40px;
+}
+
+.access-content li{
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+/* 地図の調整 */
+.access iframe {
+    width: 600px;
+    height: 400px;
+    border-radius: 8px;
+}
