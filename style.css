@@ -1,0 +1,39 @@
+.header {
+    /*上に固定*/
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    display: flex;                  /* 横並びにする */
+    justify-content: space-between; /* 左にロゴ、右にナビ */
+    align-items: center;            /* 上下の中央揃え */
+    padding: 0px 40px;
+    background-color: white;
+    border-bottom: 1px solid #eee;  /* 下に境界線 */
+}
+
+/* ロゴの調整 */
+.header-logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #422A03;
+    text-decoration: none;          /* 下線を消す */
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;                      /* メニュー同士の間隔 */
+    list-style: none;               /* ・　を消す */
+    margin: 0;
+    padding: 0;
+}
+
+.header-list a {
+    color: #422A03;
+    text-decoration: none;
+}
+
+.header-list a:hover {
+    opacity: 0.7;                   /* ホバーされたら薄くする */
+}
