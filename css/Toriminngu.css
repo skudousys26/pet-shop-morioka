@@ -6,6 +6,7 @@ html {
     background-image: url("git_practice/pet-shop-morioka/images/topHero.jpg");
     text-align: center;
 color: #A8DDF7;
+
 }
 h2 {
       border-bottom:2px solid #422A03;
@@ -45,4 +46,10 @@ th,td {
     display: flex;
      border-bottom:2px solid #422A03;
 }
+.Userrule {
+    align-items: flex-start;
+height: 200px;
+display: flex;
+}
+
 
