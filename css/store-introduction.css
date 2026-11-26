@@ -1,0 +1,166 @@
+.layout-2column,
+.layout-2column * {
+  box-sizing: border-box;
+}
+
+.layout-2column {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  color: #422A03;
+}
+
+.main-content,
+.sidebar {
+  min-width: 0;
+}
+
+
+/* 左カラム */
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: #CEEEFB;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.store-info,
+.message {
+  padding: 1rem 1.5rem;
+}
+
+.store-image img {
+  width: 100%;
+  max-width: 600px;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+  margin: 1rem auto;
+  background-color: #E0E0E0;
+}
+
+.round-corner {
+  border-radius: 16px;
+}
+
+.message-title,
+.reassurance-title {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.message p {
+  text-align: center;
+}
+
+.reassurance {
+  background-color: #CEEEFB;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin: 1rem 1.5rem;
+}
+
+.reassurance-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.reassurance-item {
+  flex: 1 1 0;
+  min-width: 0;
+  background-color: #FFFFFF;
+  border: 2px solid #82C2E3;
+  border-radius: 0.8rem;
+  padding: 1rem;
+}
+
+.reassurance-item h4 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.reassurance-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 0.5rem;
+}
+
+
+/* 右カラム */
+.sidebar {
+  border-left: 1px solid #000000;
+  text-align: center;
+  padding: 1rem;
+}
+
+.staff,
+.access {
+  background-color: #CEEEFB;
+  border-radius: 1rem;
+  padding: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.staff:last-child,
+.access:last-child {
+  margin-bottom: 0;
+}
+
+.staff-title,
+.access-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #422A03;
+  margin: 0 0 0.8rem;
+}
+
+.staff-list,
+.access-info {
+  background-color: #FFFFFF;
+  border: 2px solid #82C2E3;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  min-width: 0;
+}
+
+.staff-item {
+  margin-bottom: 1.5rem;
+}
+
+.staff-item:last-child {
+  margin-bottom: 0;
+}
+
+.staff-item img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 0.5rem;
+  background-color: #E0E0E0;
+}
+
+iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.access-info p {
+  margin-bottom: 0.5rem;
+}
+
+.access-info p:last-child {
+  margin-bottom: 0;
+}
